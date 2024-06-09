@@ -22,11 +22,11 @@ autocomplete feature.
 
 
 <#function getMapValue map option>
-    <#local result = "">
-		<#list map as key,value>
-				<#if key == option>
-						<#local result = value>
-				</#if>
-		 </#list>
-		<#return result>
+    	<#local result = "">
+	<#list map as key,value>
+		<#if key == option>
+				<#local result = value>
+		</#if>
+	 </#list>
+	<#return result>
 </#function>
