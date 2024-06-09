@@ -10,7 +10,7 @@ autocomplete feature.
 	
 		<#if (cur_FieldsGroup64068771_optionTarget.getData())??>
 			<#assign optionValue = getMapValue(FieldsGroup64068771.optionTarget.getOptionsMap(),
-																			cur_FieldsGroup64068771_optionTarget.getData()) >		
+			        cur_FieldsGroup64068771_optionTarget.getData()) >		
 																			
 		 Option : ${cur_FieldsGroup64068771_optionTarget.getData()}  -  Value: ${optionValue} <br/>
 			
